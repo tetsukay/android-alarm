@@ -24,9 +24,7 @@ android {
 }
 
 dependencies {
-    val kotlinVersion : String by project
-
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Deps.kotlinVersion}")
     implementation("androidx.appcompat:appcompat:1.1.0")
     implementation("androidx.core:core-ktx:1.1.0")
     testImplementation("junit:junit:4.12")
