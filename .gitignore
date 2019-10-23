@@ -76,7 +76,7 @@ fastlane/screenshots
 fastlane/test_output
 fastlane/readme.md
 
-# Version control
+# AppInfo control
 vcs.xml
 
 # lint
