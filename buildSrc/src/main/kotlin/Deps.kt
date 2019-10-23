@@ -19,7 +19,9 @@ object Deps {
     }
 
     object Dagger {
-        const val dagger = "2.24"
+        private const val version = "2.24"
+        const val dagger = "com.google.dagger:dagger:$version"
+        const val kapt = "com.google.dagger:dagger-compiler:$version"
     }
 
     object Test {
