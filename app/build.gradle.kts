@@ -32,7 +32,7 @@ dependencies {
     implementation(Deps.AndroidX.appCompat)
     implementation(Deps.AndroidX.coreKtx)
     implementation(Deps.Dagger.dagger)
-    implementation(Deps.Dagger.kapt)
+    kapt(Deps.Dagger.kapt)
     testImplementation(Deps.Test.JUnit.junit)
     androidTestImplementation(Deps.Test.JUnit.testRunner)
     androidTestImplementation(Deps.Test.Espresso.espresso)
